@@ -1,0 +1,86 @@
+/*===================GENRAL-STYLING==================*/
+*,
+*::after,
+*::before{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lavender;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+/*===================HEADER==================*/
+
+#header h1{
+    position: fixed;
+    top       : 0;
+    left      : 0;
+    z-index   : 500;
+    display: block;
+    width     : 100%;
+    height    : 80px;
+    z-index: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+    font-weight:lighter 900;
+    text-align: center;
+   padding-bottom: 3px;
+    color: teal;
+    background-color: lavender;
+}
+/*===================TABS-TOPS==================*/
+#tab-tops{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: teal;
+}
+#tab-tops a{
+    display: block;
+    float: left;
+    padding-top: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    color: lavender;
+    width: 33%;
+    height: 33%;
+}
+/*===================SLIDES==================*/
+.container{
+  margin: 100px 0 0 200px;
+  width: 70%;
+  height: 450%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-weight: bold;
+  
+  
+}
+  .container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.684);
+    transition: all ease-in-out 0.5s;
+  }
+  .container img:hover{
+    width: 25%;
+  }
+  #blog{
+    text-align: center;
+    padding-top:10%;
+  }
+  
+
+
+
+
+
+
